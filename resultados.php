@@ -13,10 +13,16 @@
         echo $as . "<br>";
     }
     echo "<br>Opciones elegidas: <br>";
-    $prepa=$_POST['prepas'] ?? [];
+    $prepa=$_POST['act'] ?? [];
     foreach($prepa as $as){
         echo $as . "<br>";
     }
+        echo "<br>Opciones elegidas: <br>";
+    $prepa=$_POST['sva'] ?? [];
+    foreach($prepa as $as){
+        echo $as . "<br>";
+    }
+    $nam=$_POST['']
     ?>
 </body>
 </html>
